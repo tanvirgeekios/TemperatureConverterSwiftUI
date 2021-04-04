@@ -11,6 +11,8 @@
 		EB35B5912619409800DB15BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B5902619409800DB15BF /* ContentView.swift */; };
 		EB35B5932619409900DB15BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB35B5922619409900DB15BF /* Assets.xcassets */; };
 		EB35B5962619409900DB15BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB35B5952619409900DB15BF /* Preview Assets.xcassets */; };
+		EB35B5A12619433F00DB15BF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B5A02619433F00DB15BF /* HomeView.swift */; };
+		EB35B5A52619438300DB15BF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB35B5A42619438300DB15BF /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		EB35B5922619409900DB15BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB35B5952619409900DB15BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB35B5972619409900DB15BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB35B5A02619433F00DB15BF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EB35B5A42619438300DB15BF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		EB35B58D2619409800DB15BF /* Convert Temperatures */ = {
 			isa = PBXGroup;
 			children = (
+				EB35B59F2619432200DB15BF /* ViewModels */,
+				EB35B59E2619413C00DB15BF /* Views */,
 				EB35B58E2619409800DB15BF /* Convert_TemperaturesApp.swift */,
 				EB35B5902619409800DB15BF /* ContentView.swift */,
 				EB35B5922619409900DB15BF /* Assets.xcassets */,
@@ -67,6 +73,22 @@
 				EB35B5952619409900DB15BF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB35B59E2619413C00DB15BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B5A02619433F00DB15BF /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EB35B59F2619432200DB15BF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EB35B5A42619438300DB15BF /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB35B5A12619433F00DB15BF /* HomeView.swift in Sources */,
 				EB35B5912619409800DB15BF /* ContentView.swift in Sources */,
 				EB35B58F2619409800DB15BF /* Convert_TemperaturesApp.swift in Sources */,
+				EB35B5A52619438300DB15BF /* HomeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
